@@ -1,23 +1,51 @@
 <html>
   <head>
     <title>Trusu | Bridging the future of product distribution.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
   </head>
   <style>
     body {
-      color: white;
+      font-family: lato, sans-serif;
+      color: #DDD;
       background: black;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }
+    a {
+      color: white;
+    }
     .container {
       text-align: center;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .info {
+      margin-top: auto;
+      text-align: center;
+    }
+    .title {
+      text-transform: uppercase;
+      letter-spacing: 12px;
+      font-size: 64px;
+      margin-bottom: 0;
+    }
+    .tagline {
+      margin-top: 12px;
+      margin-bottom: 36px;
     }
   </style>
   <body>
     <div class="container">
-      <p>Welcome, we are currently under construction.</p>
-      <p>- Trusu</p>
+      <h1 class="title">Trusu</h1>
+      <h2 class="tagline">Bridging the future of product distribution.</h2>
+    </div>
+    <div class="info">
+      <p>Out site is currently under construction.<br />You may contact us at <a href="mailto:info@trusu.co">info@trusu.co</a></p>
     </div>
   </body>
 </html>
